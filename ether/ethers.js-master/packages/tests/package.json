@@ -1,0 +1,43 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "dependencies": {
+    "@ethersproject/cli": "^5.0.8",
+    "@ethersproject/testcases": "^5.0.10",
+    "@types/mocha": "^5.2.0",
+    "ethers": "^5.0.25"
+  },
+  "description": "Testing package for ethers.",
+  "ethereum": "donations.ethers.eth",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.buymeacoffee.com/ricmoo"
+    }
+  ],
+  "keywords": [
+    "Ethereum",
+    "ethers"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@ethersproject/tests",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages/tests",
+    "type": "git",
+    "url": "git://github.com/ethers-io/ethers.js.git"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "tarballHash": "0x4948274a38e0063a3dc48f038a40f116e49ae94144ad4921fd501a04a2223b5d",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.20"
+}

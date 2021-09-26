@@ -1,0 +1,54 @@
+{
+  "author": "Richard Moore <me@ricmoo.com>",
+  "bin": {
+    "ethers": "./lib/bin/ethers.js",
+    "ethers-asm": "./lib/bin/ethers-asm.js",
+    "ethers-ens": "./lib/bin/ethers-ens.js",
+    "ethers-ts": "./lib/bin/ethers-ts.js"
+  },
+  "dependencies": {
+    "@babel/parser": "7.8.4",
+    "@babel/types": "7.8.3",
+    "@ethersproject/asm": "^5.0.9",
+    "@ethersproject/basex": "^5.0.7",
+    "ethers": "^5.0.25",
+    "scrypt-js": "3.0.1",
+    "solc": "0.7.1"
+  },
+  "description": "Command-Line Interface scripts and releated utilities.",
+  "ethereum": "donations.ethers.eth",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://gitcoin.co/grants/13/ethersjs-complete-simple-and-tiny-2"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.buymeacoffee.com/ricmoo"
+    }
+  ],
+  "keywords": [
+    "Ethereum",
+    "ethers",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "@ethersproject/cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages/cli",
+    "type": "git",
+    "url": "git://github.com/ethers-io/ethers.js.git"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "sideEffects": false,
+  "tarballHash": "0x0acff1610808f765b2ce7bab4e4db33ac8fd9567221002a91bf45c260c1f588d",
+  "types": "./lib/index.d.ts",
+  "version": "5.0.10"
+}
